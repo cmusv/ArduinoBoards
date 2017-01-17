@@ -1,0 +1,42 @@
+{
+   "packages":[
+      {
+         "name":"Carnegie Mellon University",
+         "maintainer":"Carnegie Mellon University - Silicon Valley",
+         "websiteURL":"https://www.cmu.edu/silicon-valley/",
+         "email":"joaodf@cmu.edu",
+         "help":{
+            "online":"https://github.com/cmusv/powerdue"
+         },
+         "platforms":[
+			 {
+				 "name": "CMU PowerDué SAM Boards (32-bits ARM Cortex-M3)",
+				 "architecture": "sam",
+				 "version": "1.0",
+				 "category": "Arduino",
+				 "url": "https://raw.githubusercontent.com/cmusv/powerdue/master/cores/arduino/Arduino.h?token=ADrUKIUvh_CAY_oC4E6QqVWKATW1lGFjks5YhrwTwA%3D%3D",
+				 "archiveFileName": "cmusv-powerdue.1.0.tar.bz2",
+				 "checksum": "SHA-256:f5f615c45bcb234e06900ec68103abdd907e9c1eaa206858eb33ea2aa07848ba",
+				 "size": "16154624",
+				 "boards": [
+					 {"name": "PowerDué (Target Port)"}
+					 {"name": "PowerDué (Instrument Port)"}
+				 ],
+				 "toolsDependencies": [
+					 {
+						 "packager": "arduino",
+						 "name": "arm-none-eabi-gcc",
+						 "version": "4.8.3-2014q1"
+					 },
+					 {
+						 "packager": "arduino",
+						 "name": "bossac",
+						 "version": "1.6.1-arduino"
+					 }
+				 ]
+			 },
+         ],
+         "tools":[]
+      }
+   ]
+}

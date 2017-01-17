@@ -19,7 +19,7 @@
 				 "checksum": "SHA-256:f5f615c45bcb234e06900ec68103abdd907e9c1eaa206858eb33ea2aa07848ba",
 				 "size": "16154624",
 				 "boards": [
-					 {"name": "PowerDué (Target Port)"}
+					 {"name": "PowerDué (Target Port)"},
 					 {"name": "PowerDué (Instrument Port)"}
 				 ],
 				 "toolsDependencies": [

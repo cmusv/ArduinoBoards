@@ -143,7 +143,34 @@
           "version": "1.6.1-arduino"
         }
       ]
-      }
+      },
+      {
+      "name": "PowerDue SAM Boards (32-bits ARM Cortex-M3)",
+      "architecture": "sam",
+      "version": "1.0.5",
+      "category": "Arduino@Heart",
+      "url": "https://github.com/cmusv/ArduinoBoards/raw/public/IDE_Board_Manager/cmusv-powerdue.1.0.5.tar.bz2",
+      "archiveFileName": "cmusv-powerdue.1.0.5.tar.bz2",
+      "checksum": "SHA-256:af6b7c077b9a1a8ec2f6d7230c70837e35e78a5af6ea758d49f8ebed372abd61",
+      "size": "17046632",
+      "boards": [
+        {
+          "name": "PowerDue"
+        }
+      ],
+      "toolsDependencies": [
+        {
+          "packager": "arduino",
+          "name": "arm-none-eabi-gcc",
+          "version": "4.8.3-2014q1"
+        },
+        {
+          "packager": "arduino",
+          "name": "bossac",
+          "version": "1.6.1-arduino"
+        }
+      ]
+      },
 
       ],
       "tools": []

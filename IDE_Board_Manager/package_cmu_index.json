@@ -259,8 +259,8 @@
                     "category": "Arduino@Heart",
                     "url": "https://github.com/cmusv/ArduinoBoards/raw/public/IDE_Board_Manager/cmusv-powerdue.1.0.10.tar.bz2",
                     "archiveFileName": "cmusv-powerdue.1.0.10.tar.bz2",
-                    "checksum": "SHA-256:4327a1df5f90d0a061f139199353bd5320583ef94ac833d3bd3f403a4f8c5ef0",
-                    "size": "17036547",
+                    "checksum": "SHA-256:5834b341e8db6c85a7edc6b0d038aa59975fac9f242eae28aaa282c60c6c6658",
+                    "size": "17041543",
                     "boards": [
                         {
                             "name": "PowerDue"
